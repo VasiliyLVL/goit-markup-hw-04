@@ -180,6 +180,8 @@ img {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .hero .title {
@@ -377,10 +379,6 @@ img {
     fill: var(--primary-white-color);
 }
 
-
-.section-clients {
-    padding: 94px 215px;
-}
 
 .clients-list {
     display: flex;
