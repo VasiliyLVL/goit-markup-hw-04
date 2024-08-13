@@ -339,7 +339,7 @@ img{
     width: 40px;
     height: 40px;
     border-radius: 50% 50%;
-    background-color: #404bbf;
+    background-color: #4d5ae5;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -347,7 +347,7 @@ img{
 
 .social-list-link:hover,
 .social-list-link:focus{
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
 
 .social-list-icon {
@@ -479,4 +479,9 @@ fill: #f4f4fd;
 
 .footer-wrapper-social>.social-list {
     gap: 16px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #31d0aa;
 }
